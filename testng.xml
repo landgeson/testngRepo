@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parentsuite">
+<listeners >
+<listener class-name= "isuitListenerdemo.ListenerTest"></listener>
+</listeners>
+<suite-files>
+<suite-file path="testpack1.xml"></suite-file>
+<suite-file path="testpack2.xml"></suite-file>
+
+</suite-files>
+
+</suite>

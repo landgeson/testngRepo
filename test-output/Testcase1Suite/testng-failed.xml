@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testcase1Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testcase1Test(failed)">
+    <groups>
+      <run>
+        <include name="Regrasstion"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Maven_TestNG.Maven_TestNG.TestCase1">
+        <methods>
+          <include name="verifysupport"/>
+          <include name="testcase1"/>
+          <include name="testcase2"/>
+          <include name="closebrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- Maven_TestNG.Maven_TestNG.TestCase1 -->
+    </classes>
+  </test> <!-- Testcase1Test(failed) -->
+</suite> <!-- Failed suite [Testcase1Suite] -->

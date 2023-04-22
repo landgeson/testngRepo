@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="testpack1Suite">
+  <test thread-count="5" name="testpack1Test">
+    <classes>
+      <class name="isuitListenerdemo.Testpack1"/>
+    </classes>
+  </test> <!-- testpack1Test -->
+</suite> <!-- testpack1Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Testcase1Suite">
+  <test thread-count="5" name="Testcase1Test">
+  <groups>
+  <run>
+  <!-- <exclude name="Smoke"/>
+  <exclude name="Functional"/>-->
+  <include name="Regrasstion"/>
+  
+  </run>
+  </groups>
+    <classes>
+      <class name="Maven_TestNG.Maven_TestNG.TestCase1">
+     <!-- <methods>
+      <include name="testcase1"/>
+      <exclude name="verifysupport"/>
+      <exclude name="testcase2"/>
+      </methods> -->
+      </class>
+    </classes>
+  </test> <!-- Testcase1Test -->
+</suite> <!-- Testcase1Suite -->
